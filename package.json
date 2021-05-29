@@ -2,10 +2,10 @@
   "name": "typescriptsamples",
   "version": "1.0.0",
   "description": "A collection of typescript samples",
-  "main": "src/index.ts",
+  "_main": "src/index.ts",
   "scripts": {
-    "start": "ts-node src/index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node src/helloworld/index.ts",
+    "test": "mocha --require ts-node/register ./src/**/*.{test,spec}.{ts,tsx,js,jsx}"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,9 @@
   "homepage": "https://github.com/MatthewLymer/TypeScriptSamples#readme",
   "dependencies": {
     "ts-node": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "^8.2.2",
+    "mocha": "^8.4.0"
   }
 }
