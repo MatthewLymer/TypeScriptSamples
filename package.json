@@ -1,0 +1,23 @@
+{
+  "name": "typescriptsamples",
+  "version": "1.0.0",
+  "description": "A collection of typescript samples",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthewLymer/TypeScriptSamples.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatthewLymer/TypeScriptSamples/issues"
+  },
+  "homepage": "https://github.com/MatthewLymer/TypeScriptSamples#readme",
+  "dependencies": {
+    "ts-node": "^10.0.0"
+  }
+}
